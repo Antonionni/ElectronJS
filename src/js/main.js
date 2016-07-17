@@ -1,8 +1,9 @@
 'use strict';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SeaFightContent from './seafight-content.js';
 
 ReactDOM.render(
-    <h1>Hello world!</h1>,
+    <SeaFightContent />,
     document.getElementById('wrapper')
 );
